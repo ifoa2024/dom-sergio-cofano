@@ -1,0 +1,132 @@
+/* Stile per il corpo della pagina */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9; 
+    color: #333; 
+} */
+
+/* Titolo principale */
+/* h1 {
+    color: #333;
+    text-align: center;
+} */
+
+/* Stile per i paragrafi */
+/* p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease; 
+} */
+
+/* Stile per i bottoni */
+/* button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+} */
+
+/* Cambia colore del bottone al passaggio del mouse */
+/* button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); 
+} */
+
+/* Cambia colore al bottone quando è disabilitato */
+/* button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+} */
+
+
+
+/* Ex.4: */
+
+/* Stili di base per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container per il form */
+.form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile per il titolo */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input e textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Stile per il bottone */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Cambia il colore del bottone al passaggio del mouse */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Container per gli articoli creati */
+.articoli-container {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.articolo {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.articolo h2 {
+    color: #333;
+}
+
+.articolo p {
+    font-size: 18px;
+    color: #555;
+}
+
+.articolo .data {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+}
